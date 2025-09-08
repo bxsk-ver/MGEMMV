@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="imgs/mgemmv_logo.png" alt="MGEMMV Logo" width="120">
+  <img src="imgs/MGEMMV.jpg" alt="MGEMMV Logo" width="120">
 </p>
 
 <h2 align="center">MGEMMV: A Multimodal LLM-Based Framework for GEMM Verilog Generation </h2>
