@@ -21,13 +21,13 @@ We recommend using [OSS CAD Suite](https://github.com/YosysHQ/oss-cad-suite-buil
 - Python libraries (see `requirements.txt`)
 - EDA tools: [Yosys](https://yosyshq.net/yosys/) (included in OSS CAD Suite)
 - [PyVerilog](https://github.com/PyHDI/Pyverilog) for Verilog parsing
+- [Graphviz](https://graphviz.org/) for visualization
 
 ### 2. Automated Testing
 - Python libraries (see `requirements.txt`)
 - [Icarus Verilog (iverilog)](http://iverilog.icarus.com/) for functional verification
 - LLM backends:
-  - OpenAI GPT (requires `OPENAI_API_KEY`)
-  - HuggingFace models (requires `HUGGINGFACEHUB_API_TOKEN`)
+  - commercial multimodal models (requires `API_KEY`)
   - or a local inference server
 
 ### 3. Installation
@@ -99,7 +99,7 @@ python compare_json_folder.py
 
 ---
 
-✅ After completing these steps, the dataset will contain:
+After completing these steps, the dataset will contain:
 
 * **Verilog source files** (logic and GEMM modules)
 * **JSON netlists** (structural representation)
@@ -137,19 +137,5 @@ python Pass@k.py
 ---
 
 ✅ The framework will output syntax correctness, functionality correctness, and Pass\@k results, enabling comparison across different LLMs.
-
-## Citation
-
-If you find **MGEMMV** useful for your research, please cite our work:
-
-```bibtex
-@inproceedings{zhang2025mgemmv,
-  title={{MGEMMV:} A Multimodal LLM-Based Framework for GEMM Verilog Generation},
-  author={Zhang, Gaoche and Wang, Meiqi and Wang, Zhongfeng},
-  booktitle={Proceedings of the IEEE International Conference on Design Automation},
-  year={2025},
-  note={To appear}
-}
-
 
 
