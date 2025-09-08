@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module16\test5\code\filelist.txt
+
+hierarchy -check -top booth_multiplier_8_CLA
+proc
+write_json ..\module16\test5\code\booth_multiplier_signed_8bit_CLA.json

@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module21\test3\code\filelist.txt
+
+hierarchy -check -top DataReOrganize
+proc
+write_json ..\module21\test3\code\DataReOrganize_4_20bit.json

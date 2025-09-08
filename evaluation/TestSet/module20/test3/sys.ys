@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module20\test3\code\filelist.txt
+
+hierarchy -check -top signed_serial_multiplier_10_FA
+proc
+write_json ..\module20\test3\code\serial_multiplier_signed_10bit_FA.json

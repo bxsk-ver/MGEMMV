@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module18\test4\code\filelist.txt
+
+hierarchy -check -top signed_parallel_multiplier_12_FA
+proc
+write_json ..\module18\test4\code\parallel_multiplier_signed_12bit_FA.json

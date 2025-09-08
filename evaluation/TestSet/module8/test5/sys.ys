@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module8\test5\code\filelist.txt
+
+hierarchy -check -top AdderTree_signed
+proc
+write_json ..\module8\test5\code\CSA_AdderTree_signed_17bit_8_PPA_Sklansky.json

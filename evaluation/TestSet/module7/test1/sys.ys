@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module7\test1\code\filelist.txt
+
+hierarchy -check -top CLA_23bit
+proc
+write_json ..\module7\test1\code\CLA_23bit.json

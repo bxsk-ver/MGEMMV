@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module11\test2\code\filelist.txt
+
+hierarchy -check -top addertree_17_6_CLA
+proc
+write_json ..\module11\test2\code\addertree_17bit_6_CLA.json

@@ -1,0 +1,19 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>
+The diagram shows a Winograd transformation matrix of size 3, 2 designed to optimize input data for convolution operations within the Winograd algorithm.
+The module's interface is defined as follows:
+
+module Wino_BTDB_22_32#(
+    parameter data_width = 20
+    )
+    (
+    // din = 3 * 4
+    input wire [data_width - 1 : 0] din0,  din1,  din2,  din3, din4,  din5,  din6,  din7, din8,  din9,  din10, din11,
+    // dout = BT * D * B
+    output wire [data_width - 1 : 0] dout0,  dout1,  dout2,  dout3, dout4,  dout5,  dout6,  dout7, dout8,  dout9,  dout10, dout11
+    );
+
+
+Please generate the complete Verilog code for this module.

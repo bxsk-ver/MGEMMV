@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module19\test2\code\filelist.txt
+
+hierarchy -check -top serial_multiplier_7_C_Skip_A
+proc
+write_json ..\module19\test2\code\serial_multiplier_unsigned_7bit_C_Skip_A.json

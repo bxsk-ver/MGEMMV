@@ -1,0 +1,3539 @@
+{
+  "creator": "Yosys 0.51+85 (git sha1 b9131853f, x86_64-w64-mingw32-g++ 13.2.1 -O3)",
+  "modules": {
+    "C_Sel_A_16bit": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "C_Sel_A_16bit",
+        "src": "..\\module24\\test5\\code\\code4.v:1.1-28.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000010000"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "cin": {
+          "direction": "input",
+          "bits": [
+            34
+          ]
+        },
+        "S": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ]
+        },
+        "cout": {
+          "direction": "output",
+          "bits": [
+            51
+          ]
+        }
+      },
+      "cells": {
+        "u0": {
+          "hide_name": 0,
+          "type": "C_Sel_A_8bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\code4.v:13.31-19.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "B": [
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25
+            ],
+            "S": [
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42
+            ],
+            "cin": [
+              34
+            ],
+            "cout": [
+              52
+            ]
+          }
+        },
+        "u1": {
+          "hide_name": 0,
+          "type": "C_Sel_A_8bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\code4.v:20.31-26.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ],
+            "B": [
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ],
+            "S": [
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50
+            ],
+            "cin": [
+              52
+            ],
+            "cout": [
+              51
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code4.v:4.26-4.27"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code4.v:5.26-5.27"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code4.v:7.27-7.28"
+          }
+        },
+        "c8": {
+          "hide_name": 0,
+          "bits": [
+            52
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code4.v:11.10-11.12"
+          }
+        },
+        "cin": {
+          "hide_name": 0,
+          "bits": [
+            34
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code4.v:6.16-6.19"
+          }
+        },
+        "cout": {
+          "hide_name": 0,
+          "bits": [
+            51
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code4.v:8.17-8.21"
+          }
+        }
+      }
+    },
+    "C_Sel_A_1bit": {
+      "attributes": {
+        "hdlname": "C_Sel_A_1bit",
+        "src": "..\\module24\\test5\\code\\code6.v:1.1-16.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000000001"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "cin": {
+          "direction": "input",
+          "bits": [
+            4
+          ]
+        },
+        "S": {
+          "direction": "output",
+          "bits": [
+            5
+          ]
+        },
+        "cout": {
+          "direction": "output",
+          "bits": [
+            6
+          ]
+        }
+      },
+      "cells": {
+        "$add$..\\module24\\test5\\code\\code6.v:12$2": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:12.26-12.31"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              7,
+              8
+            ]
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code6.v:12$3": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:12.26-12.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              7,
+              8
+            ],
+            "B": [
+              "0"
+            ],
+            "Y": [
+              9,
+              10
+            ]
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code6.v:13$4": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:13.26-13.31"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              11,
+              12
+            ]
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code6.v:13$5": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000010"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:13.26-13.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              11,
+              12
+            ],
+            "B": [
+              "1"
+            ],
+            "Y": [
+              13,
+              14
+            ]
+          }
+        },
+        "$ternary$..\\module24\\test5\\code\\code6.v:14$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:14.16-14.29"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              9
+            ],
+            "B": [
+              13
+            ],
+            "S": [
+              4
+            ],
+            "Y": [
+              5
+            ]
+          }
+        },
+        "$ternary$..\\module24\\test5\\code\\code6.v:15$7": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:15.19-15.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              10
+            ],
+            "B": [
+              14
+            ],
+            "S": [
+              4
+            ],
+            "Y": [
+              6
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "$add$..\\module24\\test5\\code\\code6.v:12$2_Y": {
+          "hide_name": 1,
+          "bits": [
+            7,
+            8
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:12.26-12.31"
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code6.v:12$3_Y": {
+          "hide_name": 1,
+          "bits": [
+            9,
+            10
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:12.26-12.38"
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code6.v:13$4_Y": {
+          "hide_name": 1,
+          "bits": [
+            11,
+            12
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:13.26-13.31"
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code6.v:13$5_Y": {
+          "hide_name": 1,
+          "bits": [
+            13,
+            14
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:13.26-13.38"
+          }
+        },
+        "$ternary$..\\module24\\test5\\code\\code6.v:14$6_Y": {
+          "hide_name": 1,
+          "bits": [
+            5
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:14.16-14.29"
+          }
+        },
+        "$ternary$..\\module24\\test5\\code\\code6.v:15$7_Y": {
+          "hide_name": 1,
+          "bits": [
+            6
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:15.19-15.38"
+          }
+        },
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:4.16-4.17"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            3
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:5.16-5.17"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [
+            5
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:7.17-7.18"
+          }
+        },
+        "S0": {
+          "hide_name": 0,
+          "bits": [
+            9
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:10.10-10.12"
+          }
+        },
+        "S1": {
+          "hide_name": 0,
+          "bits": [
+            13
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:10.14-10.16"
+          }
+        },
+        "cin": {
+          "hide_name": 0,
+          "bits": [
+            4
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:6.16-6.19"
+          }
+        },
+        "cout": {
+          "hide_name": 0,
+          "bits": [
+            6
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:8.17-8.21"
+          }
+        },
+        "cout0": {
+          "hide_name": 0,
+          "bits": [
+            10
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:11.10-11.15"
+          }
+        },
+        "cout1": {
+          "hide_name": 0,
+          "bits": [
+            14
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code6.v:11.17-11.22"
+          }
+        }
+      }
+    },
+    "C_Sel_A_32bit": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "C_Sel_A_32bit",
+        "src": "..\\module24\\test5\\code\\code5.v:1.1-28.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000100000"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ]
+        },
+        "cin": {
+          "direction": "input",
+          "bits": [
+            66
+          ]
+        },
+        "S": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+          ]
+        },
+        "cout": {
+          "direction": "output",
+          "bits": [
+            99
+          ]
+        }
+      },
+      "cells": {
+        "u0": {
+          "hide_name": 0,
+          "type": "C_Sel_A_16bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\code5.v:13.33-19.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ],
+            "B": [
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "S": [
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82
+            ],
+            "cin": [
+              66
+            ],
+            "cout": [
+              100
+            ]
+          }
+        },
+        "u1": {
+          "hide_name": 0,
+          "type": "C_Sel_A_16bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\code5.v:20.33-26.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ],
+            "B": [
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65
+            ],
+            "S": [
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98
+            ],
+            "cin": [
+              100
+            ],
+            "cout": [
+              99
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code5.v:4.26-4.27"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code5.v:5.26-5.27"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code5.v:7.27-7.28"
+          }
+        },
+        "c16": {
+          "hide_name": 0,
+          "bits": [
+            100
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code5.v:11.10-11.13"
+          }
+        },
+        "cin": {
+          "hide_name": 0,
+          "bits": [
+            66
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code5.v:6.16-6.19"
+          }
+        },
+        "cout": {
+          "hide_name": 0,
+          "bits": [
+            99
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code5.v:8.17-8.21"
+          }
+        }
+      }
+    },
+    "C_Sel_A_45bit": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "C_Sel_A_45bit",
+        "src": "..\\module24\\test5\\code\\code1.v:1.1-44.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000101101"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ]
+        },
+        "cin": {
+          "direction": "input",
+          "bits": [
+            92
+          ]
+        },
+        "S": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137
+          ]
+        },
+        "cout": {
+          "direction": "output",
+          "bits": [
+            138
+          ]
+        }
+      },
+      "cells": {
+        "u0": {
+          "hide_name": 0,
+          "type": "C_Sel_A_32bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\code1.v:15.33-21.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33
+            ],
+            "B": [
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78
+            ],
+            "S": [
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124
+            ],
+            "cin": [
+              92
+            ],
+            "cout": [
+              139
+            ]
+          }
+        },
+        "u1": {
+          "hide_name": 0,
+          "type": "C_Sel_A_8bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\code1.v:22.31-28.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41
+            ],
+            "B": [
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86
+            ],
+            "S": [
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132
+            ],
+            "cin": [
+              139
+            ],
+            "cout": [
+              140
+            ]
+          }
+        },
+        "u2": {
+          "hide_name": 0,
+          "type": "C_Sel_A_4bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\code1.v:29.31-35.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              42,
+              43,
+              44,
+              45
+            ],
+            "B": [
+              87,
+              88,
+              89,
+              90
+            ],
+            "S": [
+              133,
+              134,
+              135,
+              136
+            ],
+            "cin": [
+              140
+            ],
+            "cout": [
+              141
+            ]
+          }
+        },
+        "u3": {
+          "hide_name": 0,
+          "type": "C_Sel_A_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\code1.v:36.31-42.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              46
+            ],
+            "B": [
+              91
+            ],
+            "S": [
+              137
+            ],
+            "cin": [
+              141
+            ],
+            "cout": [
+              138
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code1.v:4.26-4.27"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code1.v:5.26-5.27"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code1.v:7.27-7.28"
+          }
+        },
+        "c32": {
+          "hide_name": 0,
+          "bits": [
+            139
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code1.v:11.10-11.13"
+          }
+        },
+        "c40": {
+          "hide_name": 0,
+          "bits": [
+            140
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code1.v:12.10-12.13"
+          }
+        },
+        "c44": {
+          "hide_name": 0,
+          "bits": [
+            141
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code1.v:13.10-13.13"
+          }
+        },
+        "cin": {
+          "hide_name": 0,
+          "bits": [
+            92
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code1.v:6.16-6.19"
+          }
+        },
+        "cout": {
+          "hide_name": 0,
+          "bits": [
+            138
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code1.v:8.17-8.21"
+          }
+        }
+      }
+    },
+    "C_Sel_A_4bit": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "C_Sel_A_4bit",
+        "src": "..\\module24\\test5\\code\\code2.v:1.1-16.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000000100"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        "cin": {
+          "direction": "input",
+          "bits": [
+            10
+          ]
+        },
+        "S": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        "cout": {
+          "direction": "output",
+          "bits": [
+            15
+          ]
+        }
+      },
+      "cells": {
+        "$add$..\\module24\\test5\\code\\code2.v:12$8": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:12.26-12.31"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "B": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "Y": [
+              16,
+              17,
+              18,
+              19,
+              20
+            ]
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code2.v:12$9": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000101",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:12.26-12.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "B": [
+              "0"
+            ],
+            "Y": [
+              21,
+              22,
+              23,
+              24,
+              25
+            ]
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code2.v:13$10": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:13.26-13.31"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "B": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "Y": [
+              26,
+              27,
+              28,
+              29,
+              30
+            ]
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code2.v:13$11": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000101",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000101"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:13.26-13.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "B": [
+              "1"
+            ],
+            "Y": [
+              31,
+              32,
+              33,
+              34,
+              35
+            ]
+          }
+        },
+        "$ternary$..\\module24\\test5\\code\\code2.v:14$12": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:14.16-14.29"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              21,
+              22,
+              23,
+              24
+            ],
+            "B": [
+              31,
+              32,
+              33,
+              34
+            ],
+            "S": [
+              10
+            ],
+            "Y": [
+              11,
+              12,
+              13,
+              14
+            ]
+          }
+        },
+        "$ternary$..\\module24\\test5\\code\\code2.v:15$13": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:15.19-15.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              25
+            ],
+            "B": [
+              35
+            ],
+            "S": [
+              10
+            ],
+            "Y": [
+              15
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "$add$..\\module24\\test5\\code\\code2.v:12$8_Y": {
+          "hide_name": 1,
+          "bits": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:12.26-12.31"
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code2.v:12$9_Y": {
+          "hide_name": 1,
+          "bits": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:12.26-12.38"
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code2.v:13$10_Y": {
+          "hide_name": 1,
+          "bits": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:13.26-13.31"
+          }
+        },
+        "$add$..\\module24\\test5\\code\\code2.v:13$11_Y": {
+          "hide_name": 1,
+          "bits": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:13.26-13.38"
+          }
+        },
+        "$ternary$..\\module24\\test5\\code\\code2.v:14$12_Y": {
+          "hide_name": 1,
+          "bits": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:14.16-14.29"
+          }
+        },
+        "$ternary$..\\module24\\test5\\code\\code2.v:15$13_Y": {
+          "hide_name": 1,
+          "bits": [
+            15
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:15.19-15.38"
+          }
+        },
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:4.26-4.27"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:5.26-5.27"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:7.27-7.28"
+          }
+        },
+        "S0": {
+          "hide_name": 0,
+          "bits": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:10.20-10.22"
+          }
+        },
+        "S1": {
+          "hide_name": 0,
+          "bits": [
+            31,
+            32,
+            33,
+            34
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:10.24-10.26"
+          }
+        },
+        "cin": {
+          "hide_name": 0,
+          "bits": [
+            10
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:6.16-6.19"
+          }
+        },
+        "cout": {
+          "hide_name": 0,
+          "bits": [
+            15
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:8.17-8.21"
+          }
+        },
+        "cout0": {
+          "hide_name": 0,
+          "bits": [
+            25
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:11.10-11.15"
+          }
+        },
+        "cout1": {
+          "hide_name": 0,
+          "bits": [
+            35
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code2.v:11.17-11.22"
+          }
+        }
+      }
+    },
+    "C_Sel_A_8bit": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "C_Sel_A_8bit",
+        "src": "..\\module24\\test5\\code\\code3.v:1.1-28.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000001000"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        },
+        "cin": {
+          "direction": "input",
+          "bits": [
+            18
+          ]
+        },
+        "S": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ]
+        },
+        "cout": {
+          "direction": "output",
+          "bits": [
+            27
+          ]
+        }
+      },
+      "cells": {
+        "u0": {
+          "hide_name": 0,
+          "type": "C_Sel_A_4bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\code3.v:13.31-19.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "B": [
+              10,
+              11,
+              12,
+              13
+            ],
+            "S": [
+              19,
+              20,
+              21,
+              22
+            ],
+            "cin": [
+              18
+            ],
+            "cout": [
+              28
+            ]
+          }
+        },
+        "u1": {
+          "hide_name": 0,
+          "type": "C_Sel_A_4bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\code3.v:20.31-26.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              6,
+              7,
+              8,
+              9
+            ],
+            "B": [
+              14,
+              15,
+              16,
+              17
+            ],
+            "S": [
+              23,
+              24,
+              25,
+              26
+            ],
+            "cin": [
+              28
+            ],
+            "cout": [
+              27
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code3.v:4.26-4.27"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code3.v:5.26-5.27"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code3.v:7.27-7.28"
+          }
+        },
+        "c4": {
+          "hide_name": 0,
+          "bits": [
+            28
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code3.v:11.10-11.12"
+          }
+        },
+        "cin": {
+          "hide_name": 0,
+          "bits": [
+            18
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code3.v:6.16-6.19"
+          }
+        },
+        "cout": {
+          "hide_name": 0,
+          "bits": [
+            27
+          ],
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\code3.v:8.17-8.21"
+          }
+        }
+      }
+    },
+    "Multi_signed": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "Multi_signed",
+        "src": "..\\module24\\test5\\code\\multi_code.v:2.1-10.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000010110"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": 1,
+          "signed": 1,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "offset": 1,
+          "signed": 1,
+          "bits": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ]
+        },
+        "P": {
+          "direction": "output",
+          "offset": 1,
+          "signed": 1,
+          "bits": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ]
+        }
+      },
+      "cells": {
+        "$mul$..\\module24\\test5\\code\\multi_code.v:9$1": {
+          "hide_name": 1,
+          "type": "$mul",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000001",
+            "A_WIDTH": "00000000000000000000000000010110",
+            "B_SIGNED": "00000000000000000000000000000001",
+            "B_WIDTH": "00000000000000000000000000010110",
+            "Y_WIDTH": "00000000000000000000000000101100"
+          },
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\multi_code.v:9.16-9.21"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ],
+            "B": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45
+            ],
+            "Y": [
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "$mul$..\\module24\\test5\\code\\multi_code.v:9$1_Y": {
+          "hide_name": 1,
+          "bits": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "signed": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\multi_code.v:9.16-9.21"
+          }
+        },
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "offset": 1,
+          "signed": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\multi_code.v:5.33-5.34"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "offset": 1,
+          "signed": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\multi_code.v:6.33-6.34"
+          }
+        },
+        "P": {
+          "hide_name": 0,
+          "bits": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "offset": 1,
+          "signed": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\multi_code.v:7.36-7.37"
+          }
+        }
+      }
+    },
+    "MAC_signed": {
+      "attributes": {
+        "hdlname": "MAC_signed",
+        "dynports": "00000000000000000000000000000001",
+        "top": "00000000000000000000000000000001",
+        "src": "..\\module24\\test5\\code\\top_code.v:2.1-27.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000010110"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ]
+        },
+        "acc_in": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ]
+        },
+        "result": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ]
+        }
+      },
+      "cells": {
+        "u_final": {
+          "hide_name": 0,
+          "type": "C_Sel_A_45bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\top_code.v:20.7-26.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              178
+            ],
+            "B": [
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              89
+            ],
+            "S": [
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134
+            ],
+            "cin": [
+              "0"
+            ],
+            "cout": []
+          }
+        },
+        "u_mult": {
+          "hide_name": 0,
+          "type": "Multi_signed",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module24\\test5\\code\\top_code.v:13.7-17.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "P": "output"
+          },
+          "connections": {
+            "A": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ],
+            "B": [
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45
+            ],
+            "P": [
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\top_code.v:5.26-5.27"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\top_code.v:6.26-6.27"
+          }
+        },
+        "P_temp": {
+          "hide_name": 0,
+          "bits": [
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\top_code.v:10.22-10.28"
+          }
+        },
+        "acc_in": {
+          "hide_name": 0,
+          "bits": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\top_code.v:7.28-7.34"
+          }
+        },
+        "result": {
+          "hide_name": 0,
+          "bits": [
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module24\\test5\\code\\top_code.v:8.31-8.37"
+          }
+        }
+      }
+    }
+  }
+}

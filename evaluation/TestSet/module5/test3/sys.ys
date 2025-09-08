@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module5\test3\code\filelist.txt
+
+hierarchy -check -top C_Skip_A_23bit
+proc
+write_json ..\module5\test3\code\C_Skip_A_23bit.json

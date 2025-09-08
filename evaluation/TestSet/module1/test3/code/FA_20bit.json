@@ -1,0 +1,1230 @@
+{
+  "creator": "Yosys 0.51+85 (git sha1 b9131853f, x86_64-w64-mingw32-g++ 13.2.1 -O3)",
+  "modules": {
+    "FA_1bit": {
+      "attributes": {
+        "hdlname": "FA_1bit",
+        "src": "..\\module1\\test3\\code\\code0.v:1.1-12.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000000001"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [
+            2
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [
+            3
+          ]
+        },
+        "cin": {
+          "direction": "input",
+          "bits": [
+            4
+          ]
+        },
+        "S": {
+          "direction": "output",
+          "bits": [
+            5
+          ]
+        },
+        "cout": {
+          "direction": "output",
+          "bits": [
+            6
+          ]
+        }
+      },
+      "cells": {
+        "$and$..\\module1\\test3\\code\\code0.v:11$3": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:11.20-11.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              7
+            ]
+          }
+        },
+        "$and$..\\module1\\test3\\code\\code0.v:11$5": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:11.28-11.41"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              8
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              9
+            ]
+          }
+        },
+        "$or$..\\module1\\test3\\code\\code0.v:11$6": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:11.19-11.42"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              7
+            ],
+            "B": [
+              9
+            ],
+            "Y": [
+              6
+            ]
+          }
+        },
+        "$xor$..\\module1\\test3\\code\\code0.v:10$1": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:10.16-10.23"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              4
+            ],
+            "B": [
+              2
+            ],
+            "Y": [
+              10
+            ]
+          }
+        },
+        "$xor$..\\module1\\test3\\code\\code0.v:10$2": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:10.16-10.27"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              10
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              5
+            ]
+          }
+        },
+        "$xor$..\\module1\\test3\\code\\code0.v:11$4": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:11.29-11.34"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              8
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "$and$..\\module1\\test3\\code\\code0.v:11$3_Y": {
+          "hide_name": 1,
+          "bits": [
+            7
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:11.20-11.25"
+          }
+        },
+        "$and$..\\module1\\test3\\code\\code0.v:11$5_Y": {
+          "hide_name": 1,
+          "bits": [
+            9
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:11.28-11.41"
+          }
+        },
+        "$or$..\\module1\\test3\\code\\code0.v:11$6_Y": {
+          "hide_name": 1,
+          "bits": [
+            6
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:11.19-11.42"
+          }
+        },
+        "$xor$..\\module1\\test3\\code\\code0.v:10$1_Y": {
+          "hide_name": 1,
+          "bits": [
+            10
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:10.16-10.23"
+          }
+        },
+        "$xor$..\\module1\\test3\\code\\code0.v:10$2_Y": {
+          "hide_name": 1,
+          "bits": [
+            5
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:10.16-10.27"
+          }
+        },
+        "$xor$..\\module1\\test3\\code\\code0.v:11$4_Y": {
+          "hide_name": 1,
+          "bits": [
+            8
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:11.29-11.34"
+          }
+        },
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:4.16-4.17"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            3
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:5.16-5.17"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [
+            5
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:7.17-7.18"
+          }
+        },
+        "cin": {
+          "hide_name": 0,
+          "bits": [
+            4
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:6.16-6.19"
+          }
+        },
+        "cout": {
+          "hide_name": 0,
+          "bits": [
+            6
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\code0.v:8.17-8.21"
+          }
+        }
+      }
+    },
+    "FA_20bit": {
+      "attributes": {
+        "hdlname": "FA_20bit",
+        "dynports": "00000000000000000000000000000001",
+        "top": "00000000000000000000000000000001",
+        "src": "..\\module1\\test3\\code\\top_code.v:1.1-19.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000010100"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        },
+        "cin": {
+          "direction": "input",
+          "bits": [
+            42
+          ]
+        },
+        "S": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ]
+        },
+        "cout": {
+          "direction": "output",
+          "bits": [
+            63
+          ]
+        }
+      },
+      "cells": {
+        "genblk1[10].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              11
+            ],
+            "B": [
+              31
+            ],
+            "S": [
+              52
+            ],
+            "cin": [
+              64
+            ],
+            "cout": [
+              65
+            ]
+          }
+        },
+        "genblk1[11].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              12
+            ],
+            "B": [
+              32
+            ],
+            "S": [
+              53
+            ],
+            "cin": [
+              65
+            ],
+            "cout": [
+              66
+            ]
+          }
+        },
+        "genblk1[12].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              13
+            ],
+            "B": [
+              33
+            ],
+            "S": [
+              54
+            ],
+            "cin": [
+              66
+            ],
+            "cout": [
+              67
+            ]
+          }
+        },
+        "genblk1[13].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              14
+            ],
+            "B": [
+              34
+            ],
+            "S": [
+              55
+            ],
+            "cin": [
+              67
+            ],
+            "cout": [
+              68
+            ]
+          }
+        },
+        "genblk1[14].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              15
+            ],
+            "B": [
+              35
+            ],
+            "S": [
+              56
+            ],
+            "cin": [
+              68
+            ],
+            "cout": [
+              69
+            ]
+          }
+        },
+        "genblk1[15].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              16
+            ],
+            "B": [
+              36
+            ],
+            "S": [
+              57
+            ],
+            "cin": [
+              69
+            ],
+            "cout": [
+              70
+            ]
+          }
+        },
+        "genblk1[16].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              17
+            ],
+            "B": [
+              37
+            ],
+            "S": [
+              58
+            ],
+            "cin": [
+              70
+            ],
+            "cout": [
+              71
+            ]
+          }
+        },
+        "genblk1[17].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              18
+            ],
+            "B": [
+              38
+            ],
+            "S": [
+              59
+            ],
+            "cin": [
+              71
+            ],
+            "cout": [
+              72
+            ]
+          }
+        },
+        "genblk1[18].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              19
+            ],
+            "B": [
+              39
+            ],
+            "S": [
+              60
+            ],
+            "cin": [
+              72
+            ],
+            "cout": [
+              73
+            ]
+          }
+        },
+        "genblk1[19].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              20
+            ],
+            "B": [
+              40
+            ],
+            "S": [
+              61
+            ],
+            "cin": [
+              73
+            ],
+            "cout": [
+              74
+            ]
+          }
+        },
+        "genblk1[1].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              22
+            ],
+            "S": [
+              43
+            ],
+            "cin": [
+              42
+            ],
+            "cout": [
+              75
+            ]
+          }
+        },
+        "genblk1[20].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              21
+            ],
+            "B": [
+              41
+            ],
+            "S": [
+              62
+            ],
+            "cin": [
+              74
+            ],
+            "cout": [
+              63
+            ]
+          }
+        },
+        "genblk1[2].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "B": [
+              23
+            ],
+            "S": [
+              44
+            ],
+            "cin": [
+              75
+            ],
+            "cout": [
+              76
+            ]
+          }
+        },
+        "genblk1[3].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              4
+            ],
+            "B": [
+              24
+            ],
+            "S": [
+              45
+            ],
+            "cin": [
+              76
+            ],
+            "cout": [
+              77
+            ]
+          }
+        },
+        "genblk1[4].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              5
+            ],
+            "B": [
+              25
+            ],
+            "S": [
+              46
+            ],
+            "cin": [
+              77
+            ],
+            "cout": [
+              78
+            ]
+          }
+        },
+        "genblk1[5].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              6
+            ],
+            "B": [
+              26
+            ],
+            "S": [
+              47
+            ],
+            "cin": [
+              78
+            ],
+            "cout": [
+              79
+            ]
+          }
+        },
+        "genblk1[6].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              7
+            ],
+            "B": [
+              27
+            ],
+            "S": [
+              48
+            ],
+            "cin": [
+              79
+            ],
+            "cout": [
+              80
+            ]
+          }
+        },
+        "genblk1[7].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              8
+            ],
+            "B": [
+              28
+            ],
+            "S": [
+              49
+            ],
+            "cin": [
+              80
+            ],
+            "cout": [
+              81
+            ]
+          }
+        },
+        "genblk1[8].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              9
+            ],
+            "B": [
+              29
+            ],
+            "S": [
+              50
+            ],
+            "cin": [
+              81
+            ],
+            "cout": [
+              82
+            ]
+          }
+        },
+        "genblk1[9].u0": {
+          "hide_name": 0,
+          "type": "FA_1bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module1\\test3\\code\\top_code.v:15.34-15.104"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              10
+            ],
+            "B": [
+              30
+            ],
+            "S": [
+              51
+            ],
+            "cin": [
+              82
+            ],
+            "cout": [
+              64
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\top_code.v:4.26-4.27"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\top_code.v:5.26-5.27"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\top_code.v:7.27-7.28"
+          }
+        },
+        "c_temp": {
+          "hide_name": 0,
+          "bits": [
+            42,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            63
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\top_code.v:10.20-10.26"
+          }
+        },
+        "cin": {
+          "hide_name": 0,
+          "bits": [
+            42
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\top_code.v:6.16-6.19"
+          }
+        },
+        "cout": {
+          "hide_name": 0,
+          "bits": [
+            63
+          ],
+          "attributes": {
+            "src": "..\\module1\\test3\\code\\top_code.v:8.17-8.21"
+          }
+        }
+      }
+    }
+  }
+}

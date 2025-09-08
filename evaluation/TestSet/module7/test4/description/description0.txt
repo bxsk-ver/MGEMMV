@@ -1,0 +1,17 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>The diagram shows a a 22-bit Carry Look-Ahead adder (CLA).
+The module's interface is defined as follows:
+module CLA_22bit #(
+    parameter width=22
+) (
+    input wire [width:1] A, // input A 
+    input wire [width:1] B, // input B 
+    input wire cin, // carry input 
+    output wire [width:1] S, // sum output 
+    output wire cout, // carry output 
+    output wire p_1_22, // propagate signal 
+    output wire g_1_22 // generate signal 
+);
+Please generate the complete Verilog code for this module.

@@ -1,0 +1,17 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>The diagram shows a signed adder tree using Carry-Save Adders (CSAs), capable of summing 5 numbers, each with a bit width of 20. The final layer uses Carry-Lookahead Adder (CLA)  for addition.
+The module's interface is defined as follows:
+
+module AdderTree_signed #(
+    parameter width=20
+)(
+    input wire [width:1] A1,
+    input wire [width:1] A2,
+    input wire [width:1] A3,
+    input wire [width:1] A4,
+    input wire [width:1] A5,
+    output wire [width + 3:1] S
+);
+Please generate the complete Verilog code for this module.

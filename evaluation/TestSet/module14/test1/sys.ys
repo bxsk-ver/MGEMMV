@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module14\test1\code\filelist.txt
+
+hierarchy -check -top Multi_signed
+proc
+write_json ..\module14\test1\code\CSA_Multi_signed_6bit_PPA_Kogge_Stone.json

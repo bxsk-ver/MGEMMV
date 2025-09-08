@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module12\test3\code\filelist.txt
+
+hierarchy -check -top Multi_Booth_signed_even
+proc
+write_json ..\module12\test3\code\CSA_Multi_Booth_signed_even_12bit_PPA_Sklansky.json

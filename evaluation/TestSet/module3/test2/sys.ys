@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module3\test2\code\filelist.txt
+
+hierarchy -check -top PPA_Kogge_Stone_21bit
+proc
+write_json ..\module3\test2\code\PPA_Kogge_Stone_21bit.json

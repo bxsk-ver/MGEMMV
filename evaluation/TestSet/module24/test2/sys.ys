@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module24\test2\code\filelist.txt
+
+hierarchy -check -top MAC_signed
+proc
+write_json ..\module24\test2\code\MAC_signed_24bit_Multi_Booth_PPA_Sklansky.json

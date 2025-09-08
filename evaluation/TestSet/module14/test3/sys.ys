@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module14\test3\code\filelist.txt
+
+hierarchy -check -top Multi_signed
+proc
+write_json ..\module14\test3\code\CSA_Multi_signed_7bit_C_Sel_A.json

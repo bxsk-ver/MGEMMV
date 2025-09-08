@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module22\test4\code\filelist.txt
+
+hierarchy -check -top Wino_ATZA_22_31
+proc
+write_json ..\module22\test4\code\Wino_ATZA_22_31_19bit.json

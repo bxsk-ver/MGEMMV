@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module8\test2\code\filelist.txt
+
+hierarchy -check -top AdderTree_signed
+proc
+write_json ..\module8\test2\code\CSA_AdderTree_signed_21bit_5_PPA_Kogge_Stone.json

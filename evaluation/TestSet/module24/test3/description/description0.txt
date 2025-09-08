@@ -1,0 +1,18 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>
+The diagram shows a signed Multiply-Accumulate (MAC) unit with a bit width of 24 bits. It utilizes a Standard Multiplier (Multi) and a Carry Select Adder (C_Sel_A)with a bit width of 48 bits.
+The module's interface is defined as follows:
+
+module MAC_signed#(
+    parameter width=24
+    )(
+    input wire [width:1] A,  
+    input wire [width:1] B,  
+    input wire [width*2:1] acc_in, 
+    output wire [width*2+1:1] result
+    );
+
+
+Please generate the complete Verilog code for this module.

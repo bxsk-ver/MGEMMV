@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module2\test2\code\filelist.txt
+
+hierarchy -check -top PPA_Sklansky_17bit
+proc
+write_json ..\module2\test2\code\PPA_Sklansky_17bit.json

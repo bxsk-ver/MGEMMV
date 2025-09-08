@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module9\test3\code\filelist.txt
+
+hierarchy -check -top AdderTree_unsigned
+proc
+write_json ..\module9\test3\code\CSA_AdderTree_unsigned_21bit_10_PPA_Brent_Kung.json

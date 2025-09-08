@@ -1,0 +1,18 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>The diagram shows an unsigned adder tree using Carry-Save Adders (CSAs), capable of summing 6 numbers, each with a bit width of 23. The final layer uses Parallel Prefix Adder for Sklansky (PPA_Sklansky) for addition.
+The module's interface is defined as follows:
+
+module AdderTree_unsigned #(
+    parameter width=23
+)(
+    input wire [width:1] A1,
+    input wire [width:1] A2,
+    input wire [width:1] A3,
+    input wire [width:1] A4,
+    input wire [width:1] A5,
+    input wire [width:1] A6,
+    output wire [width + 3:1] S
+);
+Please generate the complete Verilog code for this module.

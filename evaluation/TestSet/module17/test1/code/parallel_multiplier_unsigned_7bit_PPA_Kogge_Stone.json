@@ -1,0 +1,3895 @@
+{
+  "creator": "Yosys 0.51+85 (git sha1 b9131853f, x86_64-w64-mingw32-g++ 13.2.1 -O3)",
+  "modules": {
+    "GP_Gen_1_7": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "GP_Gen_1_7",
+        "src": "..\\module17\\test1\\code\\code2.v:2.1-40.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000000111"
+      },
+      "ports": {
+        "p": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "g": {
+          "direction": "input",
+          "offset": 1,
+          "bits": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        "P": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [
+            2,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        "G": {
+          "direction": "output",
+          "offset": 1,
+          "bits": [
+            9,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ]
+        }
+      },
+      "cells": {
+        "$and$..\\module17\\test1\\code\\code2.v:20$25": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              16
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:20$28": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              3
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              28
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:20$31": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              4
+            ],
+            "B": [
+              5
+            ],
+            "Y": [
+              29
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:20$34": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              5
+            ],
+            "B": [
+              6
+            ],
+            "Y": [
+              30
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:20$37": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              6
+            ],
+            "B": [
+              7
+            ],
+            "Y": [
+              31
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:20$40": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              7
+            ],
+            "B": [
+              8
+            ],
+            "Y": [
+              32
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$26": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              9
+            ],
+            "B": [
+              3
+            ],
+            "Y": [
+              33
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$29": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              10
+            ],
+            "B": [
+              4
+            ],
+            "Y": [
+              34
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$32": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              11
+            ],
+            "B": [
+              5
+            ],
+            "Y": [
+              35
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$35": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              12
+            ],
+            "B": [
+              6
+            ],
+            "Y": [
+              36
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$38": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              13
+            ],
+            "B": [
+              7
+            ],
+            "Y": [
+              37
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$41": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              14
+            ],
+            "B": [
+              8
+            ],
+            "Y": [
+              38
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:28$43": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:28.33-28.54"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              28
+            ],
+            "Y": [
+              17
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:28$46": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:28.33-28.54"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              16
+            ],
+            "B": [
+              29
+            ],
+            "Y": [
+              18
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:28$49": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:28.33-28.54"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              28
+            ],
+            "B": [
+              30
+            ],
+            "Y": [
+              39
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:28$52": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:28.33-28.54"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              29
+            ],
+            "B": [
+              31
+            ],
+            "Y": [
+              40
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:28$55": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:28.33-28.54"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              30
+            ],
+            "B": [
+              32
+            ],
+            "Y": [
+              41
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:29$44": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.47-29.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              9
+            ],
+            "B": [
+              28
+            ],
+            "Y": [
+              42
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:29$47": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.47-29.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              22
+            ],
+            "B": [
+              29
+            ],
+            "Y": [
+              43
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:29$50": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.47-29.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              44
+            ],
+            "B": [
+              30
+            ],
+            "Y": [
+              45
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:29$53": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.47-29.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              46
+            ],
+            "B": [
+              31
+            ],
+            "Y": [
+              47
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:29$56": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.47-29.68"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              48
+            ],
+            "B": [
+              32
+            ],
+            "Y": [
+              49
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:36$58": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:36.30-36.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2
+            ],
+            "B": [
+              39
+            ],
+            "Y": [
+              19
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:36$61": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:36.30-36.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              16
+            ],
+            "B": [
+              40
+            ],
+            "Y": [
+              20
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:36$64": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:36.30-36.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              17
+            ],
+            "B": [
+              41
+            ],
+            "Y": [
+              21
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:37$59": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.44-37.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              9
+            ],
+            "B": [
+              39
+            ],
+            "Y": [
+              50
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:37$62": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.44-37.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              22
+            ],
+            "B": [
+              40
+            ],
+            "Y": [
+              51
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:37$65": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.44-37.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              23
+            ],
+            "B": [
+              41
+            ],
+            "Y": [
+              52
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$27": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              10
+            ],
+            "B": [
+              33
+            ],
+            "Y": [
+              22
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$30": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              11
+            ],
+            "B": [
+              34
+            ],
+            "Y": [
+              44
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$33": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              12
+            ],
+            "B": [
+              35
+            ],
+            "Y": [
+              46
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$36": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              13
+            ],
+            "B": [
+              36
+            ],
+            "Y": [
+              48
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$39": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              14
+            ],
+            "B": [
+              37
+            ],
+            "Y": [
+              53
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$42": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              15
+            ],
+            "B": [
+              38
+            ],
+            "Y": [
+              54
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:29$45": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.33-29.69"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              44
+            ],
+            "B": [
+              42
+            ],
+            "Y": [
+              23
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:29$48": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.33-29.69"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              46
+            ],
+            "B": [
+              43
+            ],
+            "Y": [
+              24
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:29$51": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.33-29.69"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              48
+            ],
+            "B": [
+              45
+            ],
+            "Y": [
+              55
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:29$54": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.33-29.69"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              53
+            ],
+            "B": [
+              47
+            ],
+            "Y": [
+              56
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:29$57": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.33-29.69"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              54
+            ],
+            "B": [
+              49
+            ],
+            "Y": [
+              57
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:37$60": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.30-37.66"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              55
+            ],
+            "B": [
+              50
+            ],
+            "Y": [
+              25
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:37$63": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.30-37.66"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              56
+            ],
+            "B": [
+              51
+            ],
+            "Y": [
+              26
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:37$66": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.30-37.66"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              57
+            ],
+            "B": [
+              52
+            ],
+            "Y": [
+              27
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "$and$..\\module17\\test1\\code\\code2.v:20$25_Y": {
+          "hide_name": 1,
+          "bits": [
+            16
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:20$28_Y": {
+          "hide_name": 1,
+          "bits": [
+            28
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:20$31_Y": {
+          "hide_name": 1,
+          "bits": [
+            29
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:20$34_Y": {
+          "hide_name": 1,
+          "bits": [
+            30
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:20$37_Y": {
+          "hide_name": 1,
+          "bits": [
+            31
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:20$40_Y": {
+          "hide_name": 1,
+          "bits": [
+            32
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:20.33-20.48"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$26_Y": {
+          "hide_name": 1,
+          "bits": [
+            33
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$29_Y": {
+          "hide_name": 1,
+          "bits": [
+            34
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$32_Y": {
+          "hide_name": 1,
+          "bits": [
+            35
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$35_Y": {
+          "hide_name": 1,
+          "bits": [
+            36
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$38_Y": {
+          "hide_name": 1,
+          "bits": [
+            37
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:21$41_Y": {
+          "hide_name": 1,
+          "bits": [
+            38
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.44-21.59"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:28$43_Y": {
+          "hide_name": 1,
+          "bits": [
+            17
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:28.33-28.54"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:28$46_Y": {
+          "hide_name": 1,
+          "bits": [
+            18
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:28.33-28.54"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:28$49_Y": {
+          "hide_name": 1,
+          "bits": [
+            39
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:28.33-28.54"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:28$52_Y": {
+          "hide_name": 1,
+          "bits": [
+            40
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:28.33-28.54"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:28$55_Y": {
+          "hide_name": 1,
+          "bits": [
+            41
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:28.33-28.54"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:29$44_Y": {
+          "hide_name": 1,
+          "bits": [
+            42
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.47-29.68"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:29$47_Y": {
+          "hide_name": 1,
+          "bits": [
+            43
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.47-29.68"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:29$50_Y": {
+          "hide_name": 1,
+          "bits": [
+            45
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.47-29.68"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:29$53_Y": {
+          "hide_name": 1,
+          "bits": [
+            47
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.47-29.68"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:29$56_Y": {
+          "hide_name": 1,
+          "bits": [
+            49
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.47-29.68"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:36$58_Y": {
+          "hide_name": 1,
+          "bits": [
+            19
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:36.30-36.51"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:36$61_Y": {
+          "hide_name": 1,
+          "bits": [
+            20
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:36.30-36.51"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:36$64_Y": {
+          "hide_name": 1,
+          "bits": [
+            21
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:36.30-36.51"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:37$59_Y": {
+          "hide_name": 1,
+          "bits": [
+            50
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.44-37.65"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:37$62_Y": {
+          "hide_name": 1,
+          "bits": [
+            51
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.44-37.65"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code2.v:37$65_Y": {
+          "hide_name": 1,
+          "bits": [
+            52
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.44-37.65"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$27_Y": {
+          "hide_name": 1,
+          "bits": [
+            22
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$30_Y": {
+          "hide_name": 1,
+          "bits": [
+            44
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$33_Y": {
+          "hide_name": 1,
+          "bits": [
+            46
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$36_Y": {
+          "hide_name": 1,
+          "bits": [
+            48
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$39_Y": {
+          "hide_name": 1,
+          "bits": [
+            53
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:21$42_Y": {
+          "hide_name": 1,
+          "bits": [
+            54
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:21.33-21.60"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:29$45_Y": {
+          "hide_name": 1,
+          "bits": [
+            23
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.33-29.69"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:29$48_Y": {
+          "hide_name": 1,
+          "bits": [
+            24
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.33-29.69"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:29$51_Y": {
+          "hide_name": 1,
+          "bits": [
+            55
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.33-29.69"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:29$54_Y": {
+          "hide_name": 1,
+          "bits": [
+            56
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.33-29.69"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:29$57_Y": {
+          "hide_name": 1,
+          "bits": [
+            57
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:29.33-29.69"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:37$60_Y": {
+          "hide_name": 1,
+          "bits": [
+            25
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.30-37.66"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:37$63_Y": {
+          "hide_name": 1,
+          "bits": [
+            26
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.30-37.66"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code2.v:37$66_Y": {
+          "hide_name": 1,
+          "bits": [
+            27
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:37.30-37.66"
+          }
+        },
+        "G": {
+          "hide_name": 0,
+          "bits": [
+            9,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:8.27-8.28"
+          }
+        },
+        "G_L1": {
+          "hide_name": 0,
+          "bits": [
+            9,
+            22,
+            44,
+            46,
+            48,
+            53,
+            54
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:10.26-10.30"
+          }
+        },
+        "G_L2": {
+          "hide_name": 0,
+          "bits": [
+            9,
+            22,
+            23,
+            24,
+            55,
+            56,
+            57
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:11.26-11.30"
+          }
+        },
+        "P": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:7.27-7.28"
+          }
+        },
+        "P_L1": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            16,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:10.20-10.24"
+          }
+        },
+        "P_L2": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            16,
+            17,
+            18,
+            39,
+            40,
+            41
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:11.20-11.24"
+          }
+        },
+        "g": {
+          "hide_name": 0,
+          "bits": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:6.26-6.27"
+          }
+        },
+        "p": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "offset": 1,
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code2.v:5.26-5.27"
+          }
+        }
+      }
+    },
+    "PPA_Kogge_Stone_7bit": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "hdlname": "PPA_Kogge_Stone_7bit",
+        "src": "..\\module17\\test1\\code\\code1.v:1.1-34.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000000111"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        "cin": {
+          "direction": "input",
+          "bits": [
+            16
+          ]
+        },
+        "S": {
+          "direction": "output",
+          "bits": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        "cout": {
+          "direction": "output",
+          "bits": [
+            24
+          ]
+        }
+      },
+      "cells": {
+        "$and$..\\module17\\test1\\code\\code1.v:16$9": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000111",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000111",
+            "Y_WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:16.16-16.21"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "B": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "Y": [
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$11": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              32
+            ],
+            "B": [
+              16
+            ],
+            "Y": [
+              33
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$13": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              34
+            ],
+            "B": [
+              35
+            ],
+            "Y": [
+              36
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$15": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              37
+            ],
+            "B": [
+              38
+            ],
+            "Y": [
+              39
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$17": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              40
+            ],
+            "B": [
+              41
+            ],
+            "Y": [
+              42
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$19": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              43
+            ],
+            "B": [
+              44
+            ],
+            "Y": [
+              45
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              46
+            ],
+            "B": [
+              47
+            ],
+            "Y": [
+              48
+            ]
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$23": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              49
+            ],
+            "B": [
+              50
+            ],
+            "Y": [
+              51
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$12": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              52
+            ],
+            "B": [
+              33
+            ],
+            "Y": [
+              35
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$14": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              53
+            ],
+            "B": [
+              36
+            ],
+            "Y": [
+              38
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$16": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              54
+            ],
+            "B": [
+              39
+            ],
+            "Y": [
+              41
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$18": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              55
+            ],
+            "B": [
+              42
+            ],
+            "Y": [
+              44
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$20": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              56
+            ],
+            "B": [
+              45
+            ],
+            "Y": [
+              47
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$22": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              57
+            ],
+            "B": [
+              48
+            ],
+            "Y": [
+              50
+            ]
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$24": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              58
+            ],
+            "B": [
+              51
+            ],
+            "Y": [
+              24
+            ]
+          }
+        },
+        "$xor$..\\module17\\test1\\code\\code1.v:15$8": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000111",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000111",
+            "Y_WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:15.16-15.21"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "B": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "Y": [
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65
+            ]
+          }
+        },
+        "$xor$..\\module17\\test1\\code\\code1.v:32$10": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000111",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000111",
+            "Y_WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:32.16-32.37"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              16,
+              35,
+              38,
+              41,
+              44,
+              47,
+              50
+            ],
+            "B": [
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65
+            ],
+            "Y": [
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23
+            ]
+          }
+        },
+        "u0": {
+          "hide_name": 0,
+          "type": "GP_Gen_1_7",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module17\\test1\\code\\code1.v:18.29-23.6"
+          },
+          "port_directions": {
+            "G": "output",
+            "P": "output",
+            "g": "input",
+            "p": "input"
+          },
+          "connections": {
+            "G": [
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58
+            ],
+            "P": [
+              32,
+              34,
+              37,
+              40,
+              43,
+              46,
+              49
+            ],
+            "g": [
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31
+            ],
+            "p": [
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "$and$..\\module17\\test1\\code\\code1.v:16$9_Y": {
+          "hide_name": 1,
+          "bits": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:16.16-16.21"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$11_Y": {
+          "hide_name": 1,
+          "bits": [
+            33
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$13_Y": {
+          "hide_name": 1,
+          "bits": [
+            36
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$15_Y": {
+          "hide_name": 1,
+          "bits": [
+            39
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$17_Y": {
+          "hide_name": 1,
+          "bits": [
+            42
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$19_Y": {
+          "hide_name": 1,
+          "bits": [
+            45
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$21_Y": {
+          "hide_name": 1,
+          "bits": [
+            48
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          }
+        },
+        "$and$..\\module17\\test1\\code\\code1.v:28$23_Y": {
+          "hide_name": 1,
+          "bits": [
+            51
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.42-28.64"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$12_Y": {
+          "hide_name": 1,
+          "bits": [
+            35
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$14_Y": {
+          "hide_name": 1,
+          "bits": [
+            38
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$16_Y": {
+          "hide_name": 1,
+          "bits": [
+            41
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$18_Y": {
+          "hide_name": 1,
+          "bits": [
+            44
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$20_Y": {
+          "hide_name": 1,
+          "bits": [
+            47
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$22_Y": {
+          "hide_name": 1,
+          "bits": [
+            50
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          }
+        },
+        "$or$..\\module17\\test1\\code\\code1.v:28$24_Y": {
+          "hide_name": 1,
+          "bits": [
+            24
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:28.32-28.65"
+          }
+        },
+        "$xor$..\\module17\\test1\\code\\code1.v:15$8_Y": {
+          "hide_name": 1,
+          "bits": [
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:15.16-15.21"
+          }
+        },
+        "$xor$..\\module17\\test1\\code\\code1.v:32$10_Y": {
+          "hide_name": 1,
+          "bits": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:32.16-32.37"
+          }
+        },
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:4.28-4.29"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:5.28-5.29"
+          }
+        },
+        "G": {
+          "hide_name": 0,
+          "bits": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:11.25-11.26"
+          }
+        },
+        "P": {
+          "hide_name": 0,
+          "bits": [
+            32,
+            34,
+            37,
+            40,
+            43,
+            46,
+            49
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:11.22-11.23"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:7.29-7.30"
+          }
+        },
+        "c_temp": {
+          "hide_name": 0,
+          "bits": [
+            16,
+            35,
+            38,
+            41,
+            44,
+            47,
+            50,
+            24
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:12.20-12.26"
+          }
+        },
+        "cin": {
+          "hide_name": 0,
+          "bits": [
+            16
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:6.16-6.19"
+          }
+        },
+        "cout": {
+          "hide_name": 0,
+          "bits": [
+            24
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:8.17-8.21"
+          }
+        },
+        "g": {
+          "hide_name": 0,
+          "bits": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:10.25-10.26"
+          }
+        },
+        "p": {
+          "hide_name": 0,
+          "bits": [
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\code1.v:10.22-10.23"
+          }
+        }
+      }
+    },
+    "parallel_multiplier_7_PPA_Kogge_Stone": {
+      "attributes": {
+        "hdlname": "parallel_multiplier_7_PPA_Kogge_Stone",
+        "dynports": "00000000000000000000000000000001",
+        "top": "00000000000000000000000000000001",
+        "src": "..\\module17\\test1\\code\\top_code.v:2.1-58.10"
+      },
+      "parameter_default_values": {
+        "width": "00000000000000000000000000000111"
+      },
+      "ports": {
+        "A": {
+          "direction": "input",
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        "B": {
+          "direction": "input",
+          "bits": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        "S": {
+          "direction": "output",
+          "bits": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ]
+        }
+      },
+      "cells": {
+        "$ternary$..\\module17\\test1\\code\\top_code.v:24$1": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:24.14-24.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "B": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "S": [
+              10
+            ],
+            "Y": [
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36
+            ]
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:25$2": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:25.14-25.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "B": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "S": [
+              11
+            ],
+            "Y": [
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43
+            ]
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:26$3": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:26.14-26.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "B": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "S": [
+              12
+            ],
+            "Y": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50
+            ]
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:27$4": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:27.14-27.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "B": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "S": [
+              13
+            ],
+            "Y": [
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57
+            ]
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:28$5": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:28.14-28.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "B": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "S": [
+              14
+            ],
+            "Y": [
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64
+            ]
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:29$6": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:29.14-29.38"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "B": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "S": [
+              15
+            ],
+            "Y": [
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71
+            ]
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:30$7": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000001000"
+          },
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:30.15-30.49"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "B": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              "0"
+            ],
+            "S": [
+              9
+            ],
+            "Y": [
+              16,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78
+            ]
+          }
+        },
+        "u_PPA_Kogge_Stone_0": {
+          "hide_name": 0,
+          "type": "PPA_Kogge_Stone_7bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module17\\test1\\code\\top_code.v:32.39-33.81"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36
+            ],
+            "B": [
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78
+            ],
+            "S": [
+              17,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84
+            ],
+            "cin": [
+              "0"
+            ],
+            "cout": [
+              85
+            ]
+          }
+        },
+        "u_PPA_Kogge_Stone_1": {
+          "hide_name": 0,
+          "type": "PPA_Kogge_Stone_7bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module17\\test1\\code\\top_code.v:35.39-36.81"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43
+            ],
+            "B": [
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85
+            ],
+            "S": [
+              18,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91
+            ],
+            "cin": [
+              "0"
+            ],
+            "cout": [
+              92
+            ]
+          }
+        },
+        "u_PPA_Kogge_Stone_2": {
+          "hide_name": 0,
+          "type": "PPA_Kogge_Stone_7bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module17\\test1\\code\\top_code.v:38.39-39.81"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50
+            ],
+            "B": [
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92
+            ],
+            "S": [
+              19,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98
+            ],
+            "cin": [
+              "0"
+            ],
+            "cout": [
+              99
+            ]
+          }
+        },
+        "u_PPA_Kogge_Stone_3": {
+          "hide_name": 0,
+          "type": "PPA_Kogge_Stone_7bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module17\\test1\\code\\top_code.v:41.39-42.81"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57
+            ],
+            "B": [
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99
+            ],
+            "S": [
+              20,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ],
+            "cin": [
+              "0"
+            ],
+            "cout": [
+              106
+            ]
+          }
+        },
+        "u_PPA_Kogge_Stone_4": {
+          "hide_name": 0,
+          "type": "PPA_Kogge_Stone_7bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module17\\test1\\code\\top_code.v:44.39-45.81"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64
+            ],
+            "B": [
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106
+            ],
+            "S": [
+              21,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112
+            ],
+            "cin": [
+              "0"
+            ],
+            "cout": [
+              113
+            ]
+          }
+        },
+        "u_PPA_Kogge_Stone_5": {
+          "hide_name": 0,
+          "type": "PPA_Kogge_Stone_7bit",
+          "parameters": {},
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "..\\module17\\test1\\code\\top_code.v:47.39-48.81"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "output",
+            "cin": "input",
+            "cout": "output"
+          },
+          "connections": {
+            "A": [
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71
+            ],
+            "B": [
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113
+            ],
+            "S": [
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28
+            ],
+            "cin": [
+              "0"
+            ],
+            "cout": [
+              29
+            ]
+          }
+        }
+      },
+      "netnames": {
+        "$ternary$..\\module17\\test1\\code\\top_code.v:24$1_Y": {
+          "hide_name": 1,
+          "bits": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:24.14-24.38"
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:25$2_Y": {
+          "hide_name": 1,
+          "bits": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:25.14-25.38"
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:26$3_Y": {
+          "hide_name": 1,
+          "bits": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:26.14-26.38"
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:27$4_Y": {
+          "hide_name": 1,
+          "bits": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:27.14-27.38"
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:28$5_Y": {
+          "hide_name": 1,
+          "bits": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:28.14-28.38"
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:29$6_Y": {
+          "hide_name": 1,
+          "bits": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:29.14-29.38"
+          }
+        },
+        "$ternary$..\\module17\\test1\\code\\top_code.v:30$7_Y": {
+          "hide_name": 1,
+          "bits": [
+            16,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:30.15-30.49"
+          }
+        },
+        "A": {
+          "hide_name": 0,
+          "bits": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:5.28-5.29"
+          }
+        },
+        "B": {
+          "hide_name": 0,
+          "bits": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:6.28-6.29"
+          }
+        },
+        "S": {
+          "hide_name": 0,
+          "bits": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:7.31-7.32"
+          }
+        },
+        "in0": {
+          "hide_name": 0,
+          "bits": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:17.22-17.25"
+          }
+        },
+        "in1": {
+          "hide_name": 0,
+          "bits": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:18.22-18.25"
+          }
+        },
+        "in2": {
+          "hide_name": 0,
+          "bits": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:19.22-19.25"
+          }
+        },
+        "in3": {
+          "hide_name": 0,
+          "bits": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:20.22-20.25"
+          }
+        },
+        "in4": {
+          "hide_name": 0,
+          "bits": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:21.22-21.25"
+          }
+        },
+        "in5": {
+          "hide_name": 0,
+          "bits": [
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:22.22-22.25"
+          }
+        },
+        "sum0": {
+          "hide_name": 0,
+          "bits": [
+            16,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:10.20-10.24"
+          }
+        },
+        "sum1": {
+          "hide_name": 0,
+          "bits": [
+            17,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:11.20-11.24"
+          }
+        },
+        "sum2": {
+          "hide_name": 0,
+          "bits": [
+            18,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:12.20-12.24"
+          }
+        },
+        "sum3": {
+          "hide_name": 0,
+          "bits": [
+            19,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:13.20-13.24"
+          }
+        },
+        "sum4": {
+          "hide_name": 0,
+          "bits": [
+            20,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:14.20-14.24"
+          }
+        },
+        "sum5": {
+          "hide_name": 0,
+          "bits": [
+            21,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:15.20-15.24"
+          }
+        },
+        "sum6": {
+          "hide_name": 0,
+          "bits": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "attributes": {
+            "src": "..\\module17\\test1\\code\\top_code.v:16.20-16.24"
+          }
+        }
+      }
+    }
+  }
+}

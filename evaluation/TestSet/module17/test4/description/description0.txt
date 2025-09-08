@@ -1,0 +1,18 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>
+The diagram shows a parallel multiplier for two 12-bit inputs, using the PPA_Sklansky adder architecture.
+The module's interface is defined as follows:
+
+module parallel_multiplier_12_PPA_Sklansky #(
+    parameter width=12
+)(
+    input wire [width-1:0] A    ,
+    input wire [width-1:0] B    ,
+    output wire [width*2-1:0] S
+);
+
+
+
+Please generate the complete Verilog code for this module.

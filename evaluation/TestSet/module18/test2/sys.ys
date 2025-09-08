@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module18\test2\code\filelist.txt
+
+hierarchy -check -top signed_parallel_multiplier_9_PPA_Kogge_Stone
+proc
+write_json ..\module18\test2\code\parallel_multiplier_signed_9bit_PPA_Kogge_Stone.json

@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module11\test1\code\filelist.txt
+
+hierarchy -check -top addertree_19_9_PPA_Sklansky
+proc
+write_json ..\module11\test1\code\addertree_19bit_9_PPA_Sklansky.json

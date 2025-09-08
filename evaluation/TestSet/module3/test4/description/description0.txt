@@ -1,0 +1,15 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>The diagram shows a a 19-bit Kogge_Stone Parallel Prefix Adder (PPA).
+The module's interface is defined as follows:
+module PPA_Kogge_Stone_19bit #(
+    parameter width=19
+) (
+    input wire [width-1:0] A, // input A 
+    input wire [width-1:0] B, // input B 
+    input wire cin, // carry input 
+    output wire [width-1:0] S, // sum output 
+    output wire cout // carry output 
+);
+Please generate the complete Verilog code for this module.

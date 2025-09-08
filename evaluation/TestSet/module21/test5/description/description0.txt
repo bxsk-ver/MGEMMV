@@ -1,0 +1,21 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>
+The diagram shows a DataReOrganize for systolic array.
+The module's interface is defined as follows:
+
+module DataReOrganize#(
+    parameter data_width = 22,
+    parameter  a_tile_column_size = 6
+    )(
+    // interface to system
+    input wire clk,                         
+    input wire rst_n,                   
+    input wire en, 
+    input wire [data_width * a_tile_column_size - 1 : 0] din,
+    output reg [data_width * a_tile_column_size - 1 : 0] dout
+    );
+
+
+Please generate the complete Verilog code for this module.

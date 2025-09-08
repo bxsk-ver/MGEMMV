@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module15\test4\code\filelist.txt
+
+hierarchy -check -top Multi_unsigned
+proc
+write_json ..\module15\test4\code\CSA_Multi_unsigned_10bit_PPA_Sklansky.json

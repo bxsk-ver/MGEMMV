@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module4\test1\code\filelist.txt
+
+hierarchy -check -top PPA_Brent_Kung_17bit
+proc
+write_json ..\module4\test1\code\PPA_Brent_Kung_17bit.json

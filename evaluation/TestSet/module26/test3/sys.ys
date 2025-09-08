@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module26\test3\code\filelist.txt
+
+hierarchy -check -top PE_row
+proc
+write_json ..\module26\test3\code\PE_row_6_19bit.json

@@ -1,0 +1,29 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>
+The diagram shows a row of PE units, consisting of 24 PE units, for a parallel processing system.
+The module's interface is defined as follows:
+
+module PE_row #(
+    parameter data_width = 24,
+    parameter  w_tile_column_size = 6
+    )
+	(
+	// interface to system
+    input wire clk,                         
+    input wire rst_n,                       
+	input wire w_en,
+	input wire w_compute,
+	// interface to PE array .....
+	input wire [data_width - 1 :0] active_left,
+    output wire [data_width - 1 :0] active_right,
+	input wire [data_width * w_tile_column_size - 1 :0] in_weight_above,
+	output wire [data_width * w_tile_column_size - 1 :0] out_weight_below,
+
+	input wire [data_width * 2 * w_tile_column_size - 1 : 0] in_sum,
+	output wire [data_width * 2 * w_tile_column_size - 1 : 0] out_sum
+	);
+
+
+Please generate the complete Verilog code for this module.

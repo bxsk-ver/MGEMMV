@@ -1,0 +1,14 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>The diagram shows a 12-bit unsigned multiplier. Its partial products are accumulated using PPA_Sklansky.
+The module's interface is defined as follows:
+
+module Multi_unsigned #(
+    parameter width=12
+)(
+    input wire [width:1] A,
+    input wire [width:1] B,
+    output wire [width*2:1] P
+);
+Please generate the complete Verilog code for this module.

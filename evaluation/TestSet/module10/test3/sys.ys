@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module10\test3\code\filelist.txt
+
+hierarchy -check -top signed_addertree_17_7_PPA_Brent_Kung
+proc
+write_json ..\module10\test3\code\signed_addertree_17bit_7_PPA_Brent_Kung.json

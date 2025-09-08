@@ -1,0 +1,27 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>
+The diagram shows a Processing Element for a parallel processing system with WS data flow.
+The module's interface is defined as follows:
+
+module PE#(
+    parameter data_width = 18
+    )
+    (
+    input wire clk,                         
+    input wire rst_n,                 
+    input wire w_en,
+    input wire w_compute,     
+    input wire [data_width - 1 : 0] active_left,
+    output reg [data_width - 1 : 0] active_right,
+
+    input wire [data_width * 2 - 1 : 0] in_sum,
+    output reg [data_width * 2 - 1 : 0] out_sum,
+
+    input wire [data_width - 1 : 0] in_weight_above,
+    output reg [data_width - 1 : 0] out_weight_below
+	);
+
+
+Please generate the complete Verilog code for this module.

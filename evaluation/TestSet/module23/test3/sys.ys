@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module23\test3\code\filelist.txt
+
+hierarchy -check -top Wino_BTDB_22_32
+proc
+write_json ..\module23\test3\code\Wino_BTDB_22_32_20bit.json

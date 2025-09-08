@@ -1,0 +1,25 @@
+
+You are a professional Verilog hardware design expert, highly skilled in implementing both combinational and sequential circuits.
+Your task is to analyze the provided circuit diagram (see image) and implement the corresponding Verilog RTL code. Please ensure that the code is syntactically correct and structurally clean.
+<image>
+The diagram shows an unsigned adder tree with 9 inputs, each 19 bits wide, using the PPA_Sklansky architecture.
+The module's interface is defined as follows:
+
+module addertree_19_9_PPA_Sklansky #(
+    parameter width=19
+)(
+    input wire [width:1] A1,
+    input wire [width:1] A2,
+    input wire [width:1] A3,
+    input wire [width:1] A4,
+    input wire [width:1] A5,
+    input wire [width:1] A6,
+    input wire [width:1] A7,
+    input wire [width:1] A8,
+    input wire [width:1] A9,
+    output wire [width + 4:1] S
+);
+
+
+
+Please generate the complete Verilog code for this module.

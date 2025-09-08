@@ -1,0 +1,12 @@
+
+#**************************************************/
+#* Compile Script for yosys                       */
+#*                                                */
+#* yosys -s sys.ys                               */
+#**************************************************/
+
+read_verilog_file_list -F ..\module17\test5\code\filelist.txt
+
+hierarchy -check -top parallel_multiplier_8_C_Skip_A
+proc
+write_json ..\module17\test5\code\parallel_multiplier_unsigned_8bit_C_Skip_A.json
