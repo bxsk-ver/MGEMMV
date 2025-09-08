@@ -1,0 +1,8 @@
+torch
+numpy
+pillow
+transformers
+peft
+requests
+svglib
+reportlab
