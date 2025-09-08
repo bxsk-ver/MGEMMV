@@ -12,7 +12,7 @@ It provides:
 
 Experiments show syntax correctness up to **94.6%** and functionality correctness up to **90.0%**, significantly surpassing existing baselines.
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 MGEMMV requires both Python dependencies and external EDA/simulation tools.  
 We recommend using [OSS CAD Suite](https://github.com/YosysHQ/oss-cad-suite-build) as the primary distribution.
@@ -35,7 +35,7 @@ We recommend using [OSS CAD Suite](https://github.com/YosysHQ/oss-cad-suite-buil
   ```bash
   pip install -r requirements.txt
 
-## 📂 Dataset Generation
+## Dataset Generation
 
 MGEMMV provides a script-driven pipeline to automatically construct the hierarchical multimodal dataset. The process includes Verilog source generation, synthesis, netlist processing, circuit diagram conversion, image post-processing, and consistency checking.
 
@@ -108,7 +108,7 @@ python compare_json_folder.py
 This dataset serves as the foundation for circuit-diagram-to-Verilog (CD2V) tasks and downstream evaluation.
 
 
-## 📊 Model Evaluation
+## Model Evaluation
 
 MGEMMV provides an automated evaluation framework to benchmark Verilog generation across different LLMs. The evaluation pipeline supports multiple backends and reports **Pass@k** metrics.
 
@@ -116,6 +116,7 @@ MGEMMV provides an automated evaluation framework to benchmark Verilog generatio
 
 ```bash
 cd evaluation/TestSet/python
+```
 
 ### Step 2: Select an evaluation script
 
@@ -137,7 +138,7 @@ python Pass@k.py
 
 ✅ The framework will output syntax correctness, functionality correctness, and Pass\@k results, enabling comparison across different LLMs.
 
-## 📑 Citation
+## Citation
 
 If you find **MGEMMV** useful for your research, please cite our work:
 
