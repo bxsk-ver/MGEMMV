@@ -136,6 +136,6 @@ python Pass@k.py
 
 ---
 
-✅ The framework will output syntax correctness, functionality correctness, and Pass\@k results, enabling comparison across different LLMs.
+The framework will output syntax correctness, functionality correctness, and Pass\@k results, enabling comparison across different LLMs.
 
 
