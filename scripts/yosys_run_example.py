@@ -188,7 +188,7 @@ def run_yosys(module_dir):
     else:
         print(f'{module_dir} runs successfully!')
         return result.stdout  
-        #os.chdir(original_dir)  # 恢复到原始的工作目录
+        #os.chdir(original_dir)  
 
 # Usage example with inputs
 module_count_start = 1
