@@ -2,7 +2,7 @@
   <img src="imgs/MGEMMV.jpg" alt="MGEMMV Framework" width="600">
 </p>
 
-<h2 align="center">MGEMMV: A Multimodal LLM-Based Framework for GEMM Verilog Generation </h2>
+<h2 align="center">MGEMMV: A Multimodal LLM Framework for GEMM Verilog Generation from Circuit Diagrams </h2>
 
 **MGEMMV** is an open-source multimodal framework designed for Verilog generation of GEMM modules.  
 It provides:  
