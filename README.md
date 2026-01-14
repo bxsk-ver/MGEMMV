@@ -138,9 +138,7 @@ python Pass@k.py
 
 The framework will output syntax correctness, functionality correctness, and Pass\@k results, enabling comparison across different LLMs.
 
-## Citation
-
-If you find this repository useful, please cite:
+## BibTex
 ```bibtex
 @ARTICLE{3648843,
   author={Zhang, Gaoche and Wang, Meiqi and Wang, Zhongfeng},
