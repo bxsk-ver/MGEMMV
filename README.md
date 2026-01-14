@@ -138,4 +138,17 @@ python Pass@k.py
 
 The framework will output syntax correctness, functionality correctness, and Pass\@k results, enabling comparison across different LLMs.
 
+```bibtex
+@ARTICLE{3648843,
+  author={Zhang, Gaoche and Wang, Meiqi and Wang, Zhongfeng},
+  journal={IEEE Transactions on Circuits and Systems I: Regular Papers},
+  title={MGEMMV: A Multimodal LLM Framework for GEMM Verilog Generation From Circuit Diagrams},
+  year={2025},
+  volume={},
+  number={},
+  pages={},
+  keywords={Circuits;Hardware design languages;Hardware;Codes;Benchmark testing;Syntactics;AI accelerators;Optimization;Logic;Integrated circuit modeling;Electronic design automation (EDA);MLLMs;fine-tuning;GEMM;multimodal dataset},
+  doi={10.1109/TCSI.2025.3648843}
+}
+
 
